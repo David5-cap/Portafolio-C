@@ -1,0 +1,43 @@
+.experience {
+  background: #0f172a;
+}
+
+.timeline {
+  position: relative;
+  max-width: 950px;
+  display: grid;
+  gap: 24px;
+}
+
+.timeline-item {
+  padding: 28px;
+  border-radius: 22px;
+  background: rgba(30, 41, 59, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  transition: 0.3s ease;
+
+  &:hover {
+    transform: translateX(8px);
+    border-color: rgba(56, 189, 248, 0.45);
+  }
+
+  .date {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #38bdf8;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+  }
+
+  p {
+    color: #cbd5e1;
+    line-height: 1.8;
+  }
+}

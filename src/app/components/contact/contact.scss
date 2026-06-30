@@ -1,0 +1,21 @@
+.contact {
+  background:
+    radial-gradient(circle at center, rgba(56, 189, 248, 0.14), transparent 35%),
+    #020617;
+  text-align: center;
+}
+
+.contact-text {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  color: #cbd5e1;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
